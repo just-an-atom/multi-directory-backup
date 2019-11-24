@@ -32,7 +32,7 @@ In the `settings.json` file you'll want to change the settings to fit your desir
 `output` is used to tell the program where to put the backup.
 
 ## closeWhenDone Key
-`closeWhenDone ` is used to close the program after it's done copying all directories.
+`closeWhenDone` is used to close the program after it's done copying all directories.
 
 ## askBeforeCopying Key
 `askBeforeCopying` is really just a safety measure, but it asks if you want to copy files over so that you don't accidentally override a directory.
