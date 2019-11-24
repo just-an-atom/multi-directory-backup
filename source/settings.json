@@ -1,0 +1,10 @@
+{
+  "input": [
+    "C:/PATH/TO/DIRECTORY/"
+  ],
+  "output": [
+    "C:/PATH/TO/DIRECTORY/"
+  ],
+  "closeWhenDone": true,
+  "askBeforeCopying": true
+}
