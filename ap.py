@@ -18,16 +18,16 @@ with open('settings.json') as json_file:
         if (ask == False):
             pick = "y"
         else:
-            pick = input("Are you sure you want to copy\n"+data['input'][spot]+" to "+ data['output'][spot]+"? [Y/N]")
-
+            pick = input("Are you sure you want to copy\n" +
+                         data['input'][spot]+" to " + data['output'][spot]+"? [Y/N]")
 
         if pick == "y":
             print("Copying...")
             copy_tree(inputFolder, outputFolder)
-            print("Coded with ♥ by Adam Jackson\n")
 
             print("Data Copied!")
             print("Copied from " + inputFolder + " to " + outputFolder)
+            print("\n\nMade with ♥ by Adam Jackson\n\n")
             spot += 1
 
             if not closeWhenDone:
